@@ -9,7 +9,7 @@
     android:layout_height="110dp">
 
     <ImageView
-        android:id="@+id/imageView"
+        android:id="@+id/it_image_movies"
         android:layout_width="80dp"
         android:layout_height="90dp"
         android:layout_marginStart="20dp"
@@ -26,7 +26,7 @@
         android:layout_marginStart="12dp"
         android:layout_marginTop="10dp"
         android:text="@string/it_name_movies"
-        app:layout_constraintLeft_toRightOf="@id/imageView"
+        app:layout_constraintLeft_toRightOf="@id/it_image_movies"
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView

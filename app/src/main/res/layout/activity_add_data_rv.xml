@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddDataActivity">
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/RFaddDate"
+        android:layout_width="340dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="48dp"
+        android:hint="@string/searchdate"
+        app:layout_constraintEnd_toEndOf="@+id/RFaddMoives"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/RFaddMoives"
+        app:layout_constraintTop_toBottomOf="@+id/RFaddMoives" />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/RFaddMoives"
+        android:layout_width="340dp"
+        android:layout_height="62dp"
+        android:layout_marginTop="80dp"
+        android:hint="@string/searchmovies"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.382"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/RFaddImg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="68dp"
+        app:layout_constraintEnd_toEndOf="@+id/RFaddDate"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="@+id/RFaddDate"
+        app:layout_constraintTop_toBottomOf="@+id/RFaddDate"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <Button
+        android:id="@+id/RFaddMoiveDB"
+        android:layout_width="356dp"
+        android:layout_height="48dp"
+        android:layout_marginBottom="152dp"
+        android:text="@string/addmoivedb"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/RFaddImg"
+        app:layout_constraintHorizontal_bias="0.446"
+        app:layout_constraintStart_toStartOf="@+id/RFaddImg"
+        tools:ignore="VisualLintButtonSize" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

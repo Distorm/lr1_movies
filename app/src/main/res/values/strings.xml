@@ -3,5 +3,12 @@
     <string name="it_name_movies">it_name_movies</string>
     <string name="it_date_movies">it_date_movies</string>
     <string name="it_last_date_update">it_last_date_update</string>
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+    <string name="addmoivedb">Добавить фильм</string>
+    <string name="searchmovies">Введите название фильма</string>
+    <string name="searchdate">Дата выпуска</string>
 
 </resources>
