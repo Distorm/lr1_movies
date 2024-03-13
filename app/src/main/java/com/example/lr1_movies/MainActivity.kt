@@ -8,7 +8,7 @@ import androidx.core.view.WindowInsetsCompat
 import com.example.lr1_movies.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {
-
+    //add viewBinding
     private lateinit var binding: ActivityMainBinding
 
     override fun onCreate(savedInstanceState: Bundle?) {

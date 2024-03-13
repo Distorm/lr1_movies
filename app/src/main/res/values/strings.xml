@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">lr1_movies</string>
+    <string name="it_name_movies">it_name_movies</string>
+    <string name="it_date_movies">it_date_movies</string>
+    <string name="it_last_date_update">it_last_date_update</string>
+
 </resources>
