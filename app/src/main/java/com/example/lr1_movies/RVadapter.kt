@@ -8,11 +8,11 @@ import com.example.lr1_movies.databinding.RvItemBinding
 
 
 class RVadapter: RecyclerView.Adapter<RVadapter.MovieHolder>() {
-    val moviesList = ArrayList<RVdataItem>()
+    val moviesList = ArrayList<DataItem>()
     //получить доступ
     class MovieHolder(item: View): RecyclerView.ViewHolder(item) {
         val binding = RvItemBinding.bind(item)
-        fun bind(movie: RVdataItem) = with(binding){
+        fun bind(movie: DataItem) = with(binding){
             itImageMovies.setImageResource(movie.it_image_movies)
             itName.text = movie.it_name
             itDate.text = movie.it_date

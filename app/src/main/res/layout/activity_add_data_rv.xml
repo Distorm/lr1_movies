@@ -33,7 +33,7 @@
         android:id="@+id/RFaddImg"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="68dp"
+        android:layout_marginTop="76dp"
         app:layout_constraintEnd_toEndOf="@+id/RFaddDate"
         app:layout_constraintHorizontal_bias="0.495"
         app:layout_constraintStart_toStartOf="@+id/RFaddDate"
@@ -44,12 +44,24 @@
         android:id="@+id/RFaddMoiveDB"
         android:layout_width="356dp"
         android:layout_height="48dp"
-        android:layout_marginBottom="152dp"
+        android:layout_marginBottom="112dp"
         android:text="@string/addmoivedb"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="@+id/RFaddImg"
-        app:layout_constraintHorizontal_bias="0.446"
+        app:layout_constraintHorizontal_bias="0.46"
         app:layout_constraintStart_toStartOf="@+id/RFaddImg"
         tools:ignore="VisualLintButtonSize" />
+
+    <TextView
+        android:id="@+id/tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="48dp"
+        android:text="TextView"
+        app:layout_constraintBottom_toTopOf="@+id/RFaddMoiveDB"
+        app:layout_constraintEnd_toEndOf="@+id/RFaddMoiveDB"
+        app:layout_constraintStart_toStartOf="@+id/RFaddMoiveDB"
+        app:layout_constraintTop_toBottomOf="@+id/RFaddImg"
+        app:layout_constraintVertical_bias="0.0" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

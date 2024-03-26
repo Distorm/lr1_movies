@@ -7,7 +7,14 @@ import android.view.Gravity
 import android.view.View
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
+import com.example.lr1_movies.API.APImovie
 import com.example.lr1_movies.databinding.ActivityMainBinding
+import kotlinx.coroutines.CoroutineScope
+import kotlinx.coroutines.Dispatchers
+import kotlinx.coroutines.launch
+import retrofit2.Retrofit
+import retrofit2.converter.gson.GsonConverterFactory
+import retrofit2.create
 
 
 class MainActivity : AppCompatActivity() {
@@ -25,7 +32,6 @@ class MainActivity : AppCompatActivity() {
             startActivity(AddMoiveAct)
           //  Toast.makeText(applicationContext,"1111111",Toast.LENGTH_LONG).show()
         }
-
     }
 
 }
